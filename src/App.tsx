@@ -28,7 +28,6 @@ class App extends React.Component<{}, IState> {
       <div className="App">
         <header className="App-header">
         </header>
-        <p>Poop</p>
         <div>
           <SlideDrawer show={this.state.drawerOpen} />
           { this.state.drawerOpen && <Backdrop close={this.backdropClickHandler}/> }

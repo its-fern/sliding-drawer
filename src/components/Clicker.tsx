@@ -8,7 +8,7 @@ const Clicker: React.FC<IProps> = (props: IProps) => {
 
   return (
     <div>
-      <button onClick={props.toggle}>Click me daddy</button>
+      <button onClick={props.toggle}>Click me</button>
     </div>
   );
 }

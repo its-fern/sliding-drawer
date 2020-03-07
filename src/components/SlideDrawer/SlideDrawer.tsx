@@ -14,7 +14,7 @@ const SlideDrawer: React.FC<IProps> = (props: IProps) => {
 
   return (
     <div className={drawerClasses}>
-      <h1>Sup bitches.</h1>
+      <h1>Sup.</h1>
     </div>
   );
 }
